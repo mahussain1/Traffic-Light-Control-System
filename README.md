@@ -8,9 +8,14 @@ The task was to develop a new traffic light control system that automatically co
 - red
 - red-yellow
 
-The lights for pedestrians can have the exclusive states green and red. The control system must control a pedestrian light, a push button, and an optical indicator on each side of the road. Push-button actions on one side must be indicated on the other side too. There is one light for the cars in each direction.
+The lights for pedestrians can have the exclusive states green and red. The control system must control a pedestrian light, a push button, and an optical indicator on each side of the road. Push-button actions on one side must be indicated on the other side too. There is one light for the cars in each direction. More clear concept of the project can drawn from following figure.
 
-Below are the four main requiremnts that were used to test in test verification process:
+<figure class="image">
+  <img src="https://github.com/meteorvanilla/Traffic-Light-Control-System/blob/main/pics/System_Architecture.PNG" alt="">
+  <figcaption><p align="center"><i> System block diagram </i></p></figcaption>
+</figure>
+
+To implement the TLCS, following four main requiremnts were used in test verification process:
 
 - Vehicle stopping
 - Vehicle pre-crossing
@@ -19,7 +24,6 @@ Below are the four main requiremnts that were used to test in test verification 
 
 The time between these was dependent upon wheather a push button is pressed by Pedestrain or not. For a demonstation prupose, only the time for Vehicle crossing state is reduced by 5 sec when a push button is pressed to cross the road. The Finite State Machine (FSM) implementated using Signal Flow Graphs follows the pattern as shown in the table below.
 
- 
   
 <table>
   
@@ -77,3 +81,25 @@ The time between these was dependent upon wheather a push button is pressed by P
     <td>40</td>
   </tr>
 </table>
+
+Above logic was implemented using FSM developed in MATLAB/State Flow Graphs as shown in below.
+
+<figure class="image">
+  <img src="https://github.com/meteorvanilla/Traffic-Light-Control-System/blob/main/pics/FSM_Design.PNG" alt="">
+  <figcaption><p align="center"><i>FSM Design </i></p></figcaption>
+</figure>
+
+Later on, the prject was successfully run and tested. Following are few more screenshots showing inside view of MATLAB/Simulink.
+
+<figure class="image">
+  <img src="https://github.com/meteorvanilla/Traffic-Light-Control-System/blob/main/pics/TLC_model.PNG" alt="">
+  <figcaption><p align="center"><i>TLC Module </i></p></figcaption>
+</figure>
+
+
+<figure class="image">
+  <img src="https://github.com/meteorvanilla/Traffic-Light-Control-System/blob/main/pics/Verification_module.PNG" alt="">
+  <figcaption><p align="center"><i>Verification Module </i></p></figcaption>
+</figure>
+
+Thank you for visitng my account :slightly_smiling_face:. I wish you a good day! 
