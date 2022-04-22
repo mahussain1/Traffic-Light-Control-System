@@ -102,4 +102,4 @@ Later on, the prject was successfully run and tested. Following are few more scr
   <figcaption><p align="center"><i>Verification Module </i></p></figcaption>
 </figure>
 
-Thank you for visitng my account :slightly_smiling_face:. I wish you a good day! 
+Thank you for visiting my account. I wish you a good day! :slightly_smiling_face:
